@@ -3,3 +3,6 @@
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes"
 }
+
+
+//aqui onde fica nossos dados e arquivos de mocks
