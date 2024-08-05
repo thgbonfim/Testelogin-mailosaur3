@@ -67,6 +67,4 @@ Made with by [Thiago.B Almeida](https://github.com/thgbonfim).
 
 ---
 
-## Licença
 
-Este projeto está sob a licença MIT - [LICENSE](LICENSE).
