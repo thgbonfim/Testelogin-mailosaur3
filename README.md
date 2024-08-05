@@ -48,7 +48,7 @@ ___
 
 Aqui está um exemplo de execução de todos os testes no modo interativo.
 
-#### Crud.cy.js
+#### authenticated.cy.js
 
 https://github.com/thgbonfim/Testes-End-to-End-Cypress/assets/43422425/64625b37-283d-44ae-a63e-713d5bc8fda7
 
