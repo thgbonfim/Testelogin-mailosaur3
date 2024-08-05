@@ -1,9 +1,31 @@
 {
+  "name": "testes-e2e-com-cypress-tat-v2",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
+    "cy:open": "cypress open",
+    "cy:open:tablet": "cypress open --config viewportWidth=767,viewportHeight=480",
+    "test": "cypress run",
+    "test:tablet": "cypress run --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js --env grepTags=@desktop-and-tablet,grepOmitFiltered=true",
+    "test:cloud": "cypress run --record --tag 'desktop'",
+    "test:tablet:cloud": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js --env grepTags=@desktop-and-tablet,grepOmitFiltered=true"
+  },
+  "keywords": [],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
   "devDependencies": {
-    "cypress-file-upload": "^5.0.8",
-    "cypress-mailosaur": "^2.15.0"
+    "@cypress/grep": "^3.1.5",
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.17.3",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mailosaur": "^2.13.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-cypress": "^2.13.3"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.4.1"
+    "testes-e2e-com-cypress-tat-v2": "file:"
   }
 }
