@@ -50,20 +50,20 @@ Aqui está um exemplo de execução de todos os testes no modo interativo.
 
 #### authenticated.cy.js
 
-https://github.com/M4deN/Testes-End-to-End-Cypress/assets/43422425/64625b37-283d-44ae-a63e-713d5bc8fda7
+https://github.com/thgbonfim/Testes-End-to-End-Cypress/assets/43422425/64625b37-283d-44ae-a63e-713d5bc8fda7
 
 #### login.cy.js
 
-https://github.com/M4deN/Testes-End-to-End-Cypress/assets/43422425/b3602f1d-e838-456b-95fe-73cfd5ed7644
+https://github.com/thgbonfim/Testes-End-to-End-Cypress/assets/43422425/b3602f1d-e838-456b-95fe-73cfd5ed7644
 
 
 #### signup.cy.js
 
-https://github.com/M4deN/Testes-End-to-End-Cypress/assets/43422425/22f85892-0999-47ac-ab5a-d3462ce6d65f
+https://github.com/thgbonfim/Testes-End-to-End-Cypress/assets/43422425/22f85892-0999-47ac-ab5a-d3462ce6d65f
 
 ___
 
-Made with by [Alecio L. Medeiros](https://github.com/M4deN).
+Made with by [Thiago.B Almeida](https://github.com/thgbonfim).
 
 ---
 
