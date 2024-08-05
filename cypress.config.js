@@ -1,17 +1,16 @@
-const { defineConfig } = require("cypress");
+const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  chromeWebSecurity: false,
   e2e: {
-
     baseUrl: 'https://notes-serverless-app.com',
-    defaultCommandTimeout: 9000,
-    requestTimeout: 8000,
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
+    env: {
+      viewportWidthBreakpoint: 768,
     },
-    testIsolation: false,
+    setupNodeEvents(on, config) {
+      require('@cypress/grep/src/plugin')(config)
+      return config
+    },
   },
-});
-
-
-
+  projectId: 'ywd6nd',
+})
