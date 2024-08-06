@@ -1,5 +1,5 @@
 {
-  "name": "testes-e2e-com-cypress-tat-v2",
+  "name": "testes-e2e-com-cypress",
   "version": "1.0.0",
   "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions.",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "test:tablet:cloud": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/e2e/authenticated.cy.js --env grepTags=@desktop-and-tablet,grepOmitFiltered=true"
   },
   "keywords": [],
-  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "author": "Thiago bonfim",
   "license": "MIT",
   "devDependencies": {
     "@cypress/grep": "^3.1.5",
@@ -26,6 +26,7 @@
     "eslint-plugin-cypress": "^2.13.3"
   },
   "dependencies": {
+    "testes-e2e-com-cypress": "file:",
     "testes-e2e-com-cypress-tat-v2": "file:"
   }
 }
